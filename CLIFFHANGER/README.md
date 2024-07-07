@@ -1,6 +1,6 @@
 # Solution for CLIFFHANGER
 
-Forensics the webm file, gives a zip file within the webm.
+Forensics the webm file, gives a zip file within the webm.\
 The video will not play its full duration due to corruption/incorrect data.
 
 Carve out the zip file using dd, and place it back together.
