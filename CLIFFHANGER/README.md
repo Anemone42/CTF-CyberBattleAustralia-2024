@@ -18,5 +18,5 @@ Play the fixed video and password for the zip file is "bruteforce-resistant". (w
 ![image](https://github.com/Anemone42/CyberAustralia/assets/47408478/d50c54d2-1b0d-45f0-a585-2633ea5f798c)
 
 `strings data.raw | grep ctf`\
-will grab the flag:
+will grab the flag:\
 ctftech{divide_and_conquer}
