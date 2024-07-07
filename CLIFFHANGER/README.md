@@ -6,8 +6,11 @@ The video will not play its full duration due to corruption/incorrect data.
 Carve out the zip file using dd, and place it back together.
 
 binwalk tutorial.webm
+
 dd if=tutorial.webm bs=1 count=20000 of=out1
+
 dd if=tutorial.webm bs=1 skip=70204 of=out2
+
 cat out1 out2 > fixed.webm
 
 fixed.webm will now play to its full duration.
