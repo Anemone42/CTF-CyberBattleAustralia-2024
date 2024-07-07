@@ -17,6 +17,9 @@ Extract the zip file from tutorial.webm. (binwalk -e tutorial.webm | foremost -i
 Play the fixed video and password for the zip file is "bruteforce-resistant". (without quotes)
 ![image](https://github.com/Anemone42/CyberAustralia/assets/47408478/d50c54d2-1b0d-45f0-a585-2633ea5f798c)
 
+Inside the zip file is a file called data.raw \
+In data.raw its a binary file, using strings/hexdump to locate the flag inside
+
 `strings data.raw | grep ctf`\
 will grab the flag:\
 ctftech{divide_and_conquer}
